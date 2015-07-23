@@ -1,1 +1,1 @@
-check it out: https://neelimapradhan.herokuapp.com/
+check it out: http://neelimapradhan.github.io/personal-website/
