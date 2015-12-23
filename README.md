@@ -1,1 +1,1 @@
-check it out: http://neelimapradhan.github.io/personal-website/
+check it out: http://neelimapradhan.github.io/
