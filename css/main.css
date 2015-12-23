@@ -1,7 +1,7 @@
 body {
   background-image: url("../img/lights.svg"), url("../img/birds.gif");
   background-repeat: no-repeat;
-  background-position: center, bottom right;
+  background-position: center, right;
   background-size: 101.5%, contain;
   font-family: "Lato"; /* OPTIONAL: Google Fonts - base font */
   font-weight: 300;
