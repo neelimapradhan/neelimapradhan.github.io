@@ -1,41 +1,49 @@
 <!DOCTYPE html>
-<html lang="en">
- <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
-  <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Poiret+One">
-  <link rel="stylesheet" href="css/font-awesome.min.css">
+<html>
 
+<head>
+  <title>Neelima Pradhan</title>
+  <link rel="stylesheet" href="css/animate.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato:300">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="css/main.css">
+</head>
 
+<body>
+  <div id="body" class="container animated bounceInLeft">
+    <div class="row">
+      <div id="main" class="col-md-12">
+        <div class="profile"></div>
+        <div id="bio" class="container animated pulse">
+        <h1>Hello, I'm  <span onclick="aboutMe();" <span id="name" style="color:#CD8171">Neelima</span></span></h1>
+      </div>
+        <p class="intro">Software Engineer | Google NYC </p>
+        <ul class="icons">
+          <li><a href="https://linkedin.com/in/neelimapradhan" target="_blank" rel="noopener"><i class="fa fa-linkedin fa-lg"></i></a></li>
+          <li><a href="resume.pdf" target="_blank" rel="noopener"><i class="fa fa-file-text-o fa-lg"></i></a></li>
+          <li><a href="https://github.com/neelimapradhan" target="_blank" rel="noopener"><i class="fa fa-github fa-lg"></i></a></li>
+          <li><a href="https://instagram.com/neelimaa target="_blank" rel="noopener"><i class="fa fa-instagram fa-lg"></i></a></li>
+          <li><a href="https://medium.com/neelimapradhan target="_blank" rel="noopener"><i class="fa fa-medium fa-lg"></i></a></li>
+        </ul>
+        <hr width="50%">
+        <h4 id="aboutMe" style="display:none">Hi! I was born in Nepal, and raised in Maryland.
+          When I'm not furiously getting my code to compile, you can find me at the gym, reading endless medium articles, traveling,
+          making spotify playlists, or ranting to my friends about my "conceive believe achieve" philosophy. ☺ </h4>
+    </div>
+    </div>
+  </div>
 
-   <title>Neelima Pradhan</title>
-  <!-- Link the main.css stylesheet -->
-    <link href="css/main.css" rel="stylesheet">
-    
+  <script>
+function aboutMe() {
+  var x = document.getElementById("aboutMe");
+    if (x.style.display === "none") {
+        x.style.display = "block";
+    } else {
+        x.style.display = "none";
+    }
+}
+</script>
+</body>
 
-
-
- </head>
- <body>
-
-<div id="card">
-<div id = "profile-picture">
-</div>
-<h3> Neelima Pradhan </h3>
-<h4> Software Engineer </h4>
-</br>
-
- <ul class="links">
-                        <li><a href="mailto:neelimapradhan24@gmail.com"><i class="icon-envelope"></i></a></li>
-                        <li><a href="http://linkedin.com/in/neelimapradhan"><i class="icon-linkedin"></i></a></li>
-                        <li><a href="http://github.com/neelimapradhan"><i class="icon-github"></i></i></a></li>
-                       <li><a href="resume.pdf"><i class="icon-file-alt"></i></i></a></li> 
-                    </ul>
-
-</div>
-
-
- 
- </body>
- </html>
+</html>

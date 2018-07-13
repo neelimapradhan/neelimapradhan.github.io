@@ -1,132 +1,63 @@
 body {
-  background-position: center, right;
-  background-size: 101.5%, contain;
-  font-family: "Lato"; /* OPTIONAL: Google Fonts - base font */
-  font-weight: 300;
-  font-size: 16px;
-
-
-  -webkit-font-smoothing: antialiased;
-  -webkit-overflow-scrolling: touch;
+  font-family: Lato, sans-serif;
+  font-weight: 300
 }
 
-
-#profile-picture {
-    height: 170px;
-    width: 170px;
-    left: 0;
-    right: 0;
-    margin-left: auto;
-    margin-right: auto;
-    border-radius: 50%;
-    border-width: 100px;
-    border: 7.3px solid #D6DEE2;
-    background: url(../img/profile.jpg) no-repeat center center;
-    background-size: contain;
-    opacity: 1.0px !important;
-    background-color: #fff;
-}
-
-#card {
-  height: 360px;
-  width: 250px;
-  margin-top: 85px;
-  background-color: #FFFFFF;
-  border-radius: 2%;
-  margin-right: auto;
-  margin-left: auto;
-  vertical-align: center;
-  box-shadow: 1px 1px 2px #2f2f2f;
-}
-
-#card img {
-  vertical-align: middle;
-  margin-top: auto;
-  margin-bottom: auto;
-}
-
-h1, h3, h4 {
-font-family: Poiret One;
-text-align: center;
-color: black;
-font-weight: 10px;
-}
-
-
-/* Links */
-
-#links {
-  display: inline-block;
-   margin-left: auto;
-  margin-right: auto;
-}
 a {
-  color: #1CBCAD;
-  word-wrap: break-word;
-
-  -webkit-transition: color 0.1s ease-in, background 0.1s ease-in;
-  -moz-transition: color 0.1s ease-in, background 0.1s ease-in;
-  -ms-transition: color 0.1s ease-in, background 0.1s ease-in;
-  -o-transition: color 0.1s ease-in, background 0.1s ease-in;
-  transition: color 0.1s ease-in, background 0.1s ease-in;
+  color: #333;
 }
 
-a:hover,
-a:focus {
-  color: #7b7b7b;
-  text-decoration: none;
-  outline: 0;
+#body {
+  -webkit-animation-duration: 2s;
+  -moz-animation-duration: 2;
+  -ms-transition-animation-duration: 2s;
 }
 
-a:before,
-a:after {
-  -webkit-transition: color 0.1s ease-in, background 0.1s ease-in;
-  -moz-transition: color 0.1s ease-in, background 0.1s ease-in;
-  -ms-transition: color 0.1s ease-in, background 0.1s ease-in;
-  -o-transition: color 0.1s ease-in, background 0.1s ease-in;
-  transition: color 0.1s ease-in, background 0.1s ease-in;
+#main {
+  text-align: center;
+  transform: translateY(30%)
 }
 
- hr {
-  display: block;
-  height: 2px;
-  border: 0;
-  border-top: 1px solid #ccc;
-  margin: 1em 0;
-  padding: 0;
+#main p {
+  font-size: 18px
 }
 
-ul.links {
-    padding: 0;
-    margin-right: auto;
-    margin-left: auto;
-    display: inline-block;
+#main h1 {
+  font-size: 35px
 }
 
-ul.links li{
-  display: inline-block;
+#main ul {
+  padding: 0
+}
+
+#main li {
+  display: inline;
+  padding: 20px
+}
+
+.profile {
+  height: 300px;
+  width: 300px;
+  margin-left: auto;
   margin-right: auto;
- margin-left: auto;
-
+  left: 0;
+  right: 0;
+  background-size: 100% auto;
+  background-position: center;
+  background-image: url('../img/profile.jpg');
+  -moz-border-radius: 100px;
+  -webkit-border-radius: 100px;
+  border-radius: 50%;
+  opacity: 0.95;
+  box-shadow: 3px 3px 3px #F4E6E6;
 }
 
-
-ul.links li a {
-  display: inline-block;
-    width: 58px;
-    height: 58px;
-    border-radius: 100%;
-    font-size: 25px;
-    line-height: 50px;
-    margin-right: auto;
-    margin-left: auto;
-    text-align: center;
-    -webkit-transition: all .3s;
-    -moz-transition: all .3s;
-    transition: all .3s;
+#bio {
+-webkit-animation-duration: 3s;
+-moz-animation-duration: 3;
+-ms-transition-animation-duration: 3s;
 }
 
-ul.links li a:hover
-{
-    border-color: #FFC6AF;
+#name:hover {
+  cursor: pointer;
 }
