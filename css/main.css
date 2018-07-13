@@ -31,7 +31,7 @@ body {
   height: 360px;
   width: 250px;
   margin-top: 85px;
-  background-color: #D8ECF0;
+  background-color: #FFFFFF;
   border-radius: 2%;
   margin-right: auto;
   margin-left: auto;
@@ -130,5 +130,3 @@ ul.links li a:hover
 {
     border-color: #FFC6AF;
 }
-
-
