@@ -110,6 +110,14 @@ div.quoteBody {
   text-align: center;
 }
 
+div.inner-book {
+  padding: 20px;
+}
+
 .panel {
   box-shadow: 2px 2px 2px 2px #F4E6E6;
+}
+
+.panel-body  {
+    word-break: break-all;
 }
