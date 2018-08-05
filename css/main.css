@@ -61,3 +61,55 @@ a {
 #name:hover {
   cursor: pointer;
 }
+
+/* visited link */
+a:visited {
+    color: #333;
+}
+
+div.travelRow {
+  max-width: 80%;
+  margin: auto;
+  margin-top: 5%;
+}
+
+div.mindsetRow {
+  max-width: 50%;
+  margin: auto;
+  margin-top: 5%;
+}
+
+/* carousel */
+div.container {
+  background-color: white;
+  /* box-shadow: 2px 2px 2px 2px #F4E6E6; */
+}
+
+
+div.quoteBody {
+  max-width: 50%;
+}
+
+div.controls {
+  max-width: 40px;
+  margin: auto;
+  padding-bottom: 10px;
+}
+
+.myCarousel {
+  margin: auto;
+}
+
+div.carousel-inner{
+  margin:auto;
+  max-width: 80%;
+  background-color: white;
+}
+
+div.quoteBody {
+  text-align: center;
+}
+
+.panel {
+  box-shadow: 2px 2px 2px 2px #F4E6E6;
+}
